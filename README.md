@@ -32,13 +32,12 @@ This simple yet powerful Jupyter-based automation processes the "Project Metric"
 
 ## 📁 Project Structure
 
-Calls-Metrics/
-├── Daily_metrics.ipynb       ← Main notebook for processing & formatting metrics
-├── Project Metrics.csv       ← Example input file (Project Metric export)
-├── Requirements              ← List of required packages (or use requirements.txt)
+```Calls-Metrics/
+├── Daily_metrics.ipynb          ← Main notebook for processing & formatting metrics
+├── Project Metrics.csv          ← Example input file (Project Metric export from Xencall/ReadyMode)
+├── Requirements.txt             ← List of required packages
 └── README.md
-
-
+```
 ## 🚀 Quick Start / Usage
 
 1. **Clone the repository**
@@ -53,9 +52,11 @@ Calls-Metrics/
    Download the daily "Project Metric" report from Xencall/ReadyMode as CSV and save it into the same folder where the Jupyter notebook 'Daily_metrics.ipynb' is located.
 
 4. **Run the notebook**
+   ```
    -Open Daily_metrics.ipynb in Jupyter:Bashjupyter notebook
    -Execute all cells (or just run the processing section)
    -The script will generate Formatted Metrics - YYYY-MM-DD.csv in the same folder
+   ```
 
 ## 📈 Business Value
 
